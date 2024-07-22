@@ -1,8 +1,8 @@
 import shutil
 import os
 
-source_folder = r"G:\\Musikvideos"
-destination_folder = r"D:\Musikvideos"
+source_folder = r"Path.." #Source
+destination_folder = r"Path.." #BackUp folder
 
 source_files = [f for f in os.listdir(source_folder) if os.path.isfile(os.path.join(source_folder, f))]
 destination_files = [f for f in os.listdir(destination_folder) if os.path.isfile(os.path.join(destination_folder, f))]
